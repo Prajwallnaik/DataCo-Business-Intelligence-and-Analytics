@@ -72,19 +72,44 @@ DataCo/
 | Product Categories | 7+ categories |
 | Markets Covered | 5+ regions |
 
+## Tech Stack
+
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
 ## Technologies Used
 
-### Data Analysis
-- **Python 3.x**: Core programming language
-- **Jupyter Notebook**: Interactive analysis environment
-- **pandas**: Data manipulation and analysis
-- **numpy**: Numerical computing
-- **matplotlib**: Data visualization
-- **seaborn**: Statistical data visualization
+### Core Technologies
+| Technology | Version | Purpose |
+|------------|---------|---------|
+| Python | 3.10+ | Primary programming language |
+| Jupyter Notebook | Latest | Interactive development environment |
+| pandas | 2.0+ | Data manipulation and analysis |
+| NumPy | 1.24+ | Numerical computing and array operations |
+| Matplotlib | 3.7+ | Data visualization and plotting |
+| Seaborn | 0.12+ | Statistical data visualization |
 
 ### Business Intelligence
-- **Power BI**: Interactive dashboard creation
-- **DAX**: Data Analysis Expressions for calculations
+| Technology | Purpose |
+|------------|---------|
+| Power BI Desktop | Interactive dashboard creation |
+| DAX (Data Analysis Expressions) | Advanced calculations and aggregations |
+| Power Query | Data transformation and ETL |
+
+### Development Tools
+| Tool | Purpose |
+|------|---------|
+| Git | Version control |
+| GitHub | Code repository and collaboration |
+| VS Code | Code editor (recommended) |
+| Anaconda | Python distribution and package management |
 
 ## Installation
 
