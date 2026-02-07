@@ -1,57 +1,50 @@
-<div align="center">
+# DataCo Supply Chain Analytics
 
-# 📊 DataCo Supply Chain Analytics
+> A comprehensive data analytics project focused on analyzing supply chain operations, sales performance, and delivery metrics for DataCo.
 
-### *Transforming Supply Chain Data into Actionable Business Intelligence*
-
-[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
-[![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)](https://github.com/Prajwallnaik/DataCo)
-
-</div>
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![Power BI](https://img.shields.io/badge/Power_BI-Dashboard-F2C811?style=flat-square&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 
-- [Overview](#-overview)
-- [Key Features](#-key-features)
-- [Dataset Information](#-dataset-information)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [Installation & Setup](#-installation--setup)
-- [Analysis Workflow](#-analysis-workflow)
-- [Key Insights](#-key-insights)
-- [Dashboard Features](#-dashboard-features)
-- [Visualizations](#-visualizations)
-- [Data Dictionary](#-data-dictionary)
-- [Business Recommendations](#-business-recommendations)
-- [Future Enhancements](#-future-enhancements)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Author](#-author)
-- [Contact](#-contact)
+- [Overview](#overview)
+- [Key Features](#key-features)
+- [Dataset Information](#dataset-information)
+- [Technology Stack](#technology-stack)
+- [Project Structure](#project-structure)
+- [Installation & Setup](#installation--setup)
+- [Analysis Workflow](#analysis-workflow)
+- [Key Insights](#key-insights)
+- [Dashboard Features](#dashboard-features)
+- [Data Dictionary](#data-dictionary)
+- [Business Recommendations](#business-recommendations)
+- [Future Enhancements](#future-enhancements)
+- [Contributing](#contributing)
+- [License](#license)
+- [Author](#author)
 
 ---
 
-## 🎯 Overview
+## Overview
 
-A **comprehensive data analytics project** focused on analyzing supply chain operations, sales performance, and delivery metrics for DataCo. This project combines exploratory data analysis (EDA), business intelligence dashboards, and actionable insights to optimize supply chain efficiency and drive data-driven decision-making.
+This project combines exploratory data analysis (EDA), business intelligence dashboards, and actionable insights to optimize supply chain efficiency and drive data-driven decision-making.
 
-### 🎯 Project Objectives
+### Project Objectives
 
-- 📈 Analyze sales trends and profitability across different markets and product categories
-- 🚚 Evaluate delivery performance and identify bottlenecks in the supply chain
-- 💡 Provide data-driven insights for inventory management and customer satisfaction
-- 📊 Create interactive dashboards for stakeholder decision-making
+- Analyze sales trends and profitability across different markets and product categories
+- Evaluate delivery performance and identify bottlenecks in the supply chain
+- Provide data-driven insights for inventory management and customer satisfaction
+- Create interactive dashboards for stakeholder decision-making
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 📊 Data Analysis Capabilities
+### Data Analysis Capabilities
 
 | Feature | Description |
 |---------|-------------|
@@ -60,7 +53,7 @@ A **comprehensive data analytics project** focused on analyzing supply chain ope
 | **Product Analysis** | Category-wise performance evaluation and profitability tracking |
 | **Geographic Analysis** | Market-specific trends and regional opportunities |
 
-### 🚚 Supply Chain Metrics
+### Supply Chain Metrics
 
 | Metric | Description |
 |--------|-------------|
@@ -69,16 +62,16 @@ A **comprehensive data analytics project** focused on analyzing supply chain ope
 | **Late Delivery Risk** | Predictive indicators for potential delays |
 | **Order Fulfillment** | Complete order lifecycle tracking from placement to delivery |
 
-### 📈 Interactive Dashboard
+### Interactive Dashboard
 
-- 🎨 **Power BI Dashboard**: Real-time interactive visualizations
-- 📊 **KPI Tracking**: Key performance indicators at a glance
-- 🔍 **Drill-down Capabilities**: Detailed analysis by region, product, and time period
-- 🎛️ **Custom Filters**: Dynamic data exploration and filtering
+- **Power BI Dashboard**: Real-time interactive visualizations
+- **KPI Tracking**: Key performance indicators at a glance
+- **Drill-down Capabilities**: Detailed analysis by region, product, and time period
+- **Custom Filters**: Dynamic data exploration and filtering
 
 ---
 
-## 📦 Dataset Information
+## Dataset Information
 
 ### DataCoSupplyChainDataset.csv
 
@@ -89,39 +82,22 @@ A **comprehensive data analytics project** focused on analyzing supply chain ope
 | **Time Period** | 2018 data |
 | **Geographic Coverage** | Multiple markets (Pacific Asia, Europe, Americas, LATAM, etc.) |
 
-### 📊 Key Metrics at a Glance
+### Key Metrics Summary
 
 | Metric | Value |
 |--------|-------|
-| 📦 Total Orders | 5,996 |
-| 💰 Average Sales per Order | $184.80 |
-| 📈 Average Profit per Order | $21.79 |
-| ⚠️ Late Delivery Risk | 51.5% |
-| 📂 Product Categories | 7+ categories |
-| 🌍 Markets Covered | 5+ regions |
+| Total Orders | 5,996 |
+| Average Sales per Order | $184.80 |
+| Average Profit per Order | $21.79 |
+| Late Delivery Risk | 51.5% |
+| Product Categories | 7+ categories |
+| Markets Covered | 5+ regions |
 
 ---
 
-## 🛠️ Tech Stack
+## Technology Stack
 
-### Core Technologies
-
-![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-### Development & BI Tools
-
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-
-### 📚 Technology Details
-
-#### Data Analysis & Visualization
+### Data Analysis & Visualization
 
 | Technology | Version | Purpose |
 |------------|---------|---------|
@@ -132,7 +108,7 @@ A **comprehensive data analytics project** focused on analyzing supply chain ope
 | **Matplotlib** | 3.7+ | Data visualization and plotting |
 | **Seaborn** | 0.12+ | Statistical data visualization |
 
-#### Business Intelligence
+### Business Intelligence
 
 | Technology | Purpose |
 |------------|---------|
@@ -140,7 +116,7 @@ A **comprehensive data analytics project** focused on analyzing supply chain ope
 | **DAX** | Advanced calculations and aggregations |
 | **Power Query** | Data transformation and ETL processes |
 
-#### Development Tools
+### Development Tools
 
 | Tool | Purpose |
 |------|---------|
@@ -151,35 +127,28 @@ A **comprehensive data analytics project** focused on analyzing supply chain ope
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 DataCo/
 │
-├── 📊 dashboard/
+├── dashboard/
 │   └── dataCO.pbix                    # Power BI interactive dashboard
 │
-├── 📂 dataset/
+├── dataset/
 │   ├── DataCoSupplyChainDataset.csv   # Raw supply chain data (5,996 records)
 │   └── powerbi_final_dataset.csv      # Processed dataset for visualization
 │
-├── 🖼️ images/
-│   ├── finance.png                    # Financial metrics visualization
-│   ├── income.png                     # Income analysis chart
-│   ├── Presentation1.jpg              # Project presentation slide
-│   ├── sales.png                      # Sales performance chart
-│   └── supply-chain.png               # Supply chain flow diagram
-│
-├── 📓 notebooks/
+├── notebooks/
 │   └── DataCo.ipynb                   # Jupyter notebook with complete analysis
 │
-├── 📄 LICENSE                         # MIT License
-└── 📖 README.md                       # Project documentation (you are here)
+├── LICENSE                             # MIT License
+└── README.md                           # Project documentation
 ```
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 
@@ -193,16 +162,16 @@ python --version
 pip --version
 ```
 
-### 📥 Installation Steps
+### Installation Steps
 
-#### 1. Clone the Repository
+**1. Clone the Repository**
 
 ```bash
 git clone https://github.com/Prajwallnaik/DataCo.git
 cd DataCo
 ```
 
-#### 2. Install Python Dependencies
+**2. Install Python Dependencies**
 
 ```bash
 # Install required packages
@@ -212,25 +181,25 @@ pip install pandas numpy matplotlib seaborn jupyter
 pip install -r requirements.txt
 ```
 
-#### 3. Launch Jupyter Notebook
+**3. Launch Jupyter Notebook**
 
 ```bash
 # Start Jupyter Notebook server
 jupyter notebook notebooks/DataCo.ipynb
 ```
 
-### 📊 Power BI Dashboard Setup
+### Power BI Dashboard Setup
 
-1. **Download & Install** [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (Free)
-2. **Open Dashboard**: Navigate to `dashboard/dataCO.pbix`
-3. **Refresh Data**: Update data connections if needed
-4. **Explore**: Interact with visualizations and filters
+1. Download & Install [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (Free)
+2. Open Dashboard: Navigate to `dashboard/dataCO.pbix`
+3. Refresh Data: Update data connections if needed
+4. Explore: Interact with visualizations and filters
 
 ---
 
-## 🔄 Analysis Workflow
+## Analysis Workflow
 
-### 1️⃣ Data Loading & Exploration
+### Step 1: Data Loading & Exploration
 
 ```python
 import pandas as pd
@@ -248,15 +217,15 @@ df.info()
 df.describe()
 ```
 
-### 2️⃣ Data Cleaning
+### Step 2: Data Cleaning
 
-- ✅ Handle missing values (Product Description, Order Zipcode)
-- ✅ Convert date columns to datetime format
-- ✅ Standardize numeric data types
-- ✅ Remove outliers using IQR (Interquartile Range) method
-- ✅ Validate data integrity and consistency
+- Handle missing values (Product Description, Order Zipcode)
+- Convert date columns to datetime format
+- Standardize numeric data types
+- Remove outliers using IQR (Interquartile Range) method
+- Validate data integrity and consistency
 
-### 3️⃣ Feature Engineering
+### Step 3: Feature Engineering
 
 | Feature | Formula | Purpose |
 |---------|---------|---------|
@@ -265,18 +234,18 @@ df.describe()
 | **On-Time Delivery** | Binary indicator based on shipping delay | Track delivery performance |
 | **Temporal Features** | Extract Year, Month, Quarter, Day of Week | Enable time-series analysis |
 
-### 4️⃣ Visualization & Insights
+### Step 4: Visualization & Insights
 
-- 📊 Sales distribution analysis
-- 💰 Profit margin trends over time
-- 🚚 Delivery performance metrics
-- 🌍 Market-wise comparisons and benchmarking
+- Sales distribution analysis
+- Profit margin trends over time
+- Delivery performance metrics
+- Market-wise comparisons and benchmarking
 
 ---
 
-## 💡 Key Insights
+## Key Insights
 
-### 📈 Sales Performance
+### Sales Performance
 
 | Metric | Finding |
 |--------|---------|
@@ -285,7 +254,7 @@ df.describe()
 | **Peak Sales** | Mid-range products ($100-$300) dominate |
 | **Average Order Value** | $184.80 |
 
-### 💰 Profitability Analysis
+### Profitability Analysis
 
 | Metric | Finding |
 |--------|---------|
@@ -294,70 +263,52 @@ df.describe()
 | **High-Profit Categories** | Specific product categories show superior performance (15%+ margins) |
 | **Profit Optimization** | Opportunity to increase margins by 3-5% through strategic pricing |
 
-### 🚚 Delivery Metrics
+### Delivery Metrics
 
 | Metric | Value | Status |
 |--------|-------|--------|
-| **Late Delivery Risk** | 51.5% | ⚠️ Needs Improvement |
-| **Average Delay** | 0.47 days | ⚠️ Above Target |
-| **On-Time Rate** | 48.5% | ⚠️ Below Industry Standard |
-| **Target On-Time Rate** | 95% | 🎯 Goal |
+| **Late Delivery Risk** | 51.5% | Needs Improvement |
+| **Average Delay** | 0.47 days | Above Target |
+| **On-Time Rate** | 48.5% | Below Industry Standard |
+| **Target On-Time Rate** | 95% | Goal |
 
-### 🌍 Market Analysis
+### Market Analysis
 
 | Market | Performance | Opportunity |
 |--------|-------------|-------------|
-| **Pacific Asia** | 🟢 Top Performer | Maintain market share |
-| **Europe** | 🟢 Strong Growth | Expand product lines |
-| **LATAM** | 🟡 Moderate | Increase marketing efforts |
-| **Africa** | 🔴 Underperforming | Strategic review needed |
+| **Pacific Asia** | Top Performer | Maintain market share |
+| **Europe** | Strong Growth | Expand product lines |
+| **LATAM** | Moderate | Increase marketing efforts |
+| **Africa** | Underperforming | Strategic review needed |
 | **Seasonal Trends** | Q4 Peak | Optimize inventory for holidays |
 
 ---
 
-## 📊 Dashboard Features
+## Dashboard Features
 
-The Power BI dashboard (`dashboard/dataCO.pbix`) provides comprehensive analytics through:
+The Power BI dashboard (`dashboard/dataCO.pbix`) provides comprehensive analytics through multiple interactive pages.
 
-### 📄 Dashboard Pages
+### Dashboard Pages
 
 | Page | Description |
 |------|-------------|
-| 1️⃣ **Executive Summary** | High-level KPIs, trends, and performance overview |
-| 2️⃣ **Sales Analysis** | Revenue breakdown by category, region, and customer segment |
-| 3️⃣ **Delivery Performance** | Shipping metrics, delays, and efficiency tracking |
-| 4️⃣ **Product Insights** | Category and item-level profitability analysis |
-| 5️⃣ **Geographic View** | Interactive map showing market-wise performance |
+| **Executive Summary** | High-level KPIs, trends, and performance overview |
+| **Sales Analysis** | Revenue breakdown by category, region, and customer segment |
+| **Delivery Performance** | Shipping metrics, delays, and efficiency tracking |
+| **Product Insights** | Category and item-level profitability analysis |
+| **Geographic View** | Interactive map showing market-wise performance |
 
-### 🎛️ Interactive Elements
+### Interactive Elements
 
-- 📅 **Date Range Slicers**: Filter data by custom time periods
-- 📦 **Product Category Filters**: Analyze specific product lines
-- 🌍 **Market Selection**: Compare regional performance
-- 👥 **Customer Segment Filters**: Consumer, Corporate, Home Office
-- 🔍 **Dynamic Drill-through**: Deep-dive into specific metrics
-
----
-
-## 🖼️ Visualizations
-
-### Sample Charts
-
-![Sales Analysis](images/sales.png)
-*📊 Sales performance across different product categories*
-
-![Supply Chain Flow](images/supply-chain.png)
-*🚚 End-to-end supply chain process visualization*
-
-![Financial Metrics](images/finance.png)
-*💰 Profitability and revenue trends*
-
-![Income Analysis](images/income.png)
-*📈 Income distribution and patterns*
+- **Date Range Slicers**: Filter data by custom time periods
+- **Product Category Filters**: Analyze specific product lines
+- **Market Selection**: Compare regional performance
+- **Customer Segment Filters**: Consumer, Corporate, Home Office
+- **Dynamic Drill-through**: Deep-dive into specific metrics
 
 ---
 
-## 📖 Data Dictionary
+## Data Dictionary
 
 ### Critical Columns
 
@@ -376,62 +327,62 @@ The Power BI dashboard (`dashboard/dataCO.pbix`) provides comprehensive analytic
 
 ---
 
-## 💼 Business Recommendations
+## Business Recommendations
 
 Based on comprehensive data analysis, here are actionable recommendations:
 
-### 🎯 Priority Actions
+### Priority Actions
 
-| # | Recommendation | Impact | Effort |
-|---|----------------|--------|--------|
-| 1️⃣ | **Improve Delivery Performance** | 🔴 High | Medium |
-|   | Focus on reducing the 51.5% late delivery risk through route optimization and carrier partnerships | | |
-| 2️⃣ | **Optimize Inventory** | 🔴 High | Low |
-|   | Stock high-margin products in key markets to maximize profitability | | |
-| 3️⃣ | **Customer Retention** | 🟡 Medium | Medium |
-|   | Target high-value customer segments with personalized offers | | |
-| 4️⃣ | **Supply Chain Efficiency** | 🔴 High | High |
-|   | Reduce average shipping delays by 50% through process improvements | | |
-| 5️⃣ | **Product Mix Optimization** | 🟡 Medium | Low |
-|   | Phase out loss-making items and focus on high-margin products | | |
+| Priority | Recommendation | Impact | Effort |
+|----------|----------------|--------|--------|
+| **1** | **Improve Delivery Performance** | High | Medium |
+|       | Focus on reducing the 51.5% late delivery risk through route optimization and carrier partnerships | | |
+| **2** | **Optimize Inventory** | High | Low |
+|       | Stock high-margin products in key markets to maximize profitability | | |
+| **3** | **Customer Retention** | Medium | Medium |
+|       | Target high-value customer segments with personalized offers | | |
+| **4** | **Supply Chain Efficiency** | High | High |
+|       | Reduce average shipping delays by 50% through process improvements | | |
+| **5** | **Product Mix Optimization** | Medium | Low |
+|       | Phase out loss-making items and focus on high-margin products | | |
 
 ---
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 ### Planned Features
 
-- 🤖 **Predictive Modeling**: Machine learning models for delivery delay prediction
-- 👥 **Customer Lifetime Value**: CLV analysis for retention strategies
-- 📈 **Demand Forecasting**: Time series forecasting using ARIMA/Prophet
-- ⚡ **Real-time Dashboard**: Live data integration with streaming analytics
-- 📧 **Automated Reporting**: Scheduled email reports for stakeholders
-- 🎯 **ML Inventory Optimization**: AI-driven inventory management
-- 💬 **Sentiment Analysis**: Customer feedback analysis using NLP
-- 🌐 **Web Application**: Interactive web-based analytics platform
+- **Predictive Modeling**: Machine learning models for delivery delay prediction
+- **Customer Lifetime Value**: CLV analysis for retention strategies
+- **Demand Forecasting**: Time series forecasting using ARIMA/Prophet
+- **Real-time Dashboard**: Live data integration with streaming analytics
+- **Automated Reporting**: Scheduled email reports for stakeholders
+- **ML Inventory Optimization**: AI-driven inventory management
+- **Sentiment Analysis**: Customer feedback analysis using NLP
+- **Web Application**: Interactive web-based analytics platform
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
-Contributions are **welcome and appreciated**! Here's how you can contribute:
+Contributions are welcome and appreciated. Here's how you can contribute:
 
 ### How to Contribute
 
-1. 🍴 **Fork the repository**
-2. 🌿 **Create a feature branch**
+1. Fork the repository
+2. Create a feature branch
    ```bash
    git checkout -b feature/AmazingFeature
    ```
-3. ✍️ **Commit your changes**
+3. Commit your changes
    ```bash
    git commit -m 'Add some AmazingFeature'
    ```
-4. 📤 **Push to the branch**
+4. Push to the branch
    ```bash
    git push origin feature/AmazingFeature
    ```
-5. 🔃 **Open a Pull Request**
+5. Open a Pull Request
 
 ### Contribution Guidelines
 
@@ -442,53 +393,41 @@ Contributions are **welcome and appreciated**! Here's how you can contribute:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 👨‍💼 Author
+## Author
 
-<div align="center">
+**Prajwal L**  
+Data Analyst & Business Intelligence Developer  
+Specialization: Supply Chain Analytics & Optimization
 
-### **Prajwal L**
-
-*Data Analyst & Business Intelligence Developer*
-
-**Specialization**: Supply Chain Analytics & Optimization
-
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github)](https://github.com/Prajwallnaik)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yourprofile)
-
-</div>
+[![GitHub](https://img.shields.io/badge/GitHub-Prajwallnaik-181717?style=flat-square&logo=github)](https://github.com/Prajwallnaik)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin)](https://linkedin.com/in/yourprofile)
 
 ---
 
-## 📞 Contact
+## Contact
 
 For questions, suggestions, or collaboration opportunities:
 
-- 📧 **Email**: Open an issue in the repository
-- 💬 **Discussions**: Use GitHub Discussions for general questions
-- 🐛 **Bug Reports**: Submit detailed issue reports
-- 💡 **Feature Requests**: Share your ideas through issues
+- **Issues**: Open an issue in the repository
+- **Discussions**: Use GitHub Discussions for general questions
+- **Bug Reports**: Submit detailed issue reports
+- **Feature Requests**: Share your ideas through issues
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
-- 📊 **DataCo** for providing the comprehensive supply chain dataset
-- 💻 **Power BI Community** for dashboard design inspiration and best practices
-- 🐍 **Python Data Science Community** for excellent libraries and documentation
-- 🌟 **Open Source Contributors** for making data analytics accessible to everyone
+- **DataCo** for providing the comprehensive supply chain dataset
+- **Power BI Community** for dashboard design inspiration and best practices
+- **Python Data Science Community** for excellent libraries and documentation
+- **Open Source Contributors** for making data analytics accessible to everyone
 
 ---
 
-<div align="center">
-
-**Project Status**: 🟢 Active | **Last Updated**: February 2026
-
-⭐ **If you find this project useful, please consider giving it a star!** ⭐
-
-</div>
+**Project Status**: Active | **Last Updated**: February 2026
