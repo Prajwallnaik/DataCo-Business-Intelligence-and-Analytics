@@ -406,7 +406,7 @@ Data Analyst & Business Intelligence Developer
 Specialization: Supply Chain Analytics & Optimization
 
 [![GitHub](https://img.shields.io/badge/GitHub-Prajwallnaik-181717?style=flat-square&logo=github)](https://github.com/Prajwallnaik)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin)](https://linkedin.com/in/yourprofile)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/prajwal-l-862819359/)
 
 ---
 
